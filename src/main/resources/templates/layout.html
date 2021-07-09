@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html data-th-fragment="layout (heads, bodyId, content)" lang='en'>
+<head>
+  <meta content='width=device-width,initial-scale=1,shrink-to-fit=no' id='Viewport' name='viewport'>
+  <data-th-block data-th-replace="${heads}"></data-th-block>
+</head>
+<body data-th-id="${bodyId}">
+<header>
+  <h1>News Application</h1>
+</header>
+<div id='main' data-th-replace="${content}">
+  <p>Content</p>
+</div>
+</body>
+</html>
